@@ -32,3 +32,20 @@ print("Suhu dalam celcius yaitu ", celcius, "Celcius")
 # kelvin
 kelvin = ((fahrenheit - 459.67) * 5) / 9
 print("Suhu dalam kelvin yaitu ", kelvin, "Kelvin")
+
+# Program konversi kelvin ke satuan lain
+
+kelvin = float(input("Masukkan suhu dalam kelvin: "))
+print("Suhu adalah = ", kelvin, "Kelvin")
+
+#celcius
+celcius = kelvin - 273
+print("Suhu dalam celcius yaitu ", celcius, "Celcius")
+
+#fahrenheit
+fahrenheit = (kelvin * (9/5)) - 459.67
+print("Suhu dalam fahrenheit yaitu ", fahrenheit, "Fahrenheit")
+
+#reamur
+reamur = (4/5) * (kelvin - 273)
+print("Suhu dalam reamur yaitu ", reamur, "Reamur")
