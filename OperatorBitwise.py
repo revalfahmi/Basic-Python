@@ -34,7 +34,7 @@ print("nilai: ", a, ", binary: ", format(a, '08b'))
 print("--------------------------------- (~)")
 print("nilai: ", c, ", binary: ", format(c, '08b'))
 
-# ** jika ingin nge flif agar tidak negatif maka bisa dijadikan ke XOR
+# ** jika ingin nge flip agar tidak negatif maka bisa dijadikan ke XOR
 d = 0b0000001001
 e = 0b1111111111
 print("nilai: ", e^d, ", binary: ", format(e^d, '08b'))
