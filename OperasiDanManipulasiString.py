@@ -40,7 +40,7 @@ print("index ke-(0-11) : " + nama_lengkap[0:12:2])
 print("paling kecil : " + min(nama_lengkap))
 
 # item paling besar
-print("paling kecil : " + max(nama_lengkap))
+print("paling besar : " + max(nama_lengkap))
 
 asciii_code = ord("R")
 print("ASCII code untuk R adalah " + str(asciii_code))
